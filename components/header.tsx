@@ -4,13 +4,13 @@ import { useEffect, useState } from 'react';
 import InnerHeader from './innerHeader';
 
 export const TabIds = {
-    HOME: 'home',
-    PRODUCTS: 'products',
+    HOME: 'home'
+   // PRODUCTS: 'products',
 };
 
 export const TabRoutes = {
-    [TabIds.HOME]: '/',
-    [TabIds.PRODUCTS]: '/products',
+    [TabIds.HOME]: '/'
+   // [TabIds.PRODUCTS]: '/products',
 };
 
 const HeaderlessRoutes = [
@@ -59,8 +59,8 @@ const Header = () => {
     });
 
     const items = [
-        { ariaControls: 'home', id: TabIds.HOME, title: 'Home' },
-        { ariaControls: 'products', id: TabIds.PRODUCTS, title: 'Products' },
+        { ariaControls: 'home', id: TabIds.HOME, title: 'Home' }
+       // { ariaControls: 'products', id: TabIds.PRODUCTS, title: 'Products' },
     ];
 
     const handleTabClick = (tabId: string) => {
