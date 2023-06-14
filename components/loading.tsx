@@ -1,4 +1,4 @@
-import { Flex, H3, Panel, ProgressCircle } from '@bigcommerce/big-design';
+import { Flex, H3, Panel } from '@bigcommerce/big-design';
 
 const Loading = () => (
     <Panel>
