@@ -6,14 +6,14 @@
   "addons": ["cleardb:ignite"],
   "env": {
     "CLIENT_ID": {
-      "description": "The client id of your app, provided by the BigCommerce developer portal."
+      "description": "c1uxs3ek4zhc1vwuyrj3i0ek9r8rf3w"
     },
     "CLIENT_SECRET":{
-      "description": "The client secret of your app, provided by the BigCommerce developer portal."
+      "description": "993dd7bbf0714d41963acd5b8ab5049e44249cac0a5f5c807be81aa62abdaa88"
     },
     "AUTH_CALLBACK":{
       "description": "The fully qualified authentication endpoint provided by this app. Replace the app name with the app name chosen above.",
-      "value": "https://<APP NAME>.herokuapp.com/api/auth"
+      "value": "https://bigcommercesynexus.azurewebsites.net.com/api/auth"
     },
     "DB_TYPE":{
       "description": "Which type of database we are using. Options are 'mysql' or 'firebase'. Can safely leave unchanged.",
@@ -21,7 +21,7 @@
     },
     "JWT_KEY":{
       "description": "Key the app will use for signing JWT. Can safely leave unchanged.",
-      "generator": "secret"
+      "generator": "o0Rg5NhWoQIIvS6OFGH3m1boS1BAECIO"
     },
     "TAX_PROVIDER_ID": {
       "description": "The tax provider id provided by BigCommerce. See https://developer.bigcommerce.com/api-docs/providers/tax#sharing-provider-details-with-bigcommerce"
