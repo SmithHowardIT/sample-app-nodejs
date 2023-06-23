@@ -15,7 +15,7 @@
     },
     "AUTH_CALLBACK":{
       "description": "The fully qualified authentication endpoint provided by this app. Replace the app name with the app name chosen above.",
-      "value": "https://bigcommercesynexus.azurewebsites.net.com/api/auth"
+      "value": "https://bigcommercesynexus.azurewebsites.net/api/auth"
     },
     "DB_TYPE":{
       "description": "mysql",
