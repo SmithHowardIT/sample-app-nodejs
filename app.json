@@ -6,10 +6,12 @@
   "addons": ["cleardb:ignite"],
   "env": {
     "CLIENT_ID": {
-      "description": "c1uxs3ek4zhc1vwuyrj3i0ek9r8rf3w"
+      "description": "c1uxs3ek4zhc1vwuyrj3i0ek9r8rf3w",
+      "value":"c1uxs3ek4zhc1vwuyrj3i0ek9r8rf3w"
     },
     "CLIENT_SECRET":{
-      "description": "993dd7bbf0714d41963acd5b8ab5049e44249cac0a5f5c807be81aa62abdaa88"
+      "description": "993dd7bbf0714d41963acd5b8ab5049e44249cac0a5f5c807be81aa62abdaa88",
+      "value":"993dd7bbf0714d41963acd5b8ab5049e44249cac0a5f5c807be81aa62abdaa88"
     },
     "AUTH_CALLBACK":{
       "description": "The fully qualified authentication endpoint provided by this app. Replace the app name with the app name chosen above.",
@@ -24,13 +26,16 @@
       "generator": "o0Rg5NhWoQIIvS6OFGH3m1boS1BAECIO"
     },
     "TAX_PROVIDER_ID": {
-      "description": "SynexusSandboxProvider"
+      "description": "SynexusSandboxProvider",
+      "value":"SynexusSandboxProvider"
     },
     "TAX_PROVIDER_USERNAME": {
-      "description": "testing@test.com"
+      "description": "testing@test.com",
+      "value":"testing@test.com"
     },
     "TAX_PROVIDER_PASSWORD": {
-      "description": "Welcome1"
+      "description": "Welcome1",
+      "value":"Welcome1"
     }
   },
   "scripts": {
