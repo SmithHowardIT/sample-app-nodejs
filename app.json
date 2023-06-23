@@ -16,21 +16,21 @@
       "value": "https://bigcommercesynexus.azurewebsites.net.com/api/auth"
     },
     "DB_TYPE":{
-      "description": "Which type of database we are using. Options are 'mysql' or 'firebase'. Can safely leave unchanged.",
+      "description": "mysql",
       "value": "mysql"
     },
     "JWT_KEY":{
-      "description": "Key the app will use for signing JWT. Can safely leave unchanged.",
+      "description": "o0Rg5NhWoQIIvS6OFGH3m1boS1BAECIO",
       "generator": "o0Rg5NhWoQIIvS6OFGH3m1boS1BAECIO"
     },
     "TAX_PROVIDER_ID": {
-      "description": "The tax provider id provided by BigCommerce. See https://developer.bigcommerce.com/api-docs/providers/tax#sharing-provider-details-with-bigcommerce"
+      "description": "SynexusSandboxProvider"
     },
     "TAX_PROVIDER_USERNAME": {
-      "description": "Username for tax provider basic auth. Do not use any colons. See https://developer.bigcommerce.com/api-docs/providers/tax#establishing-a-connection"
+      "description": "testing@test.com"
     },
     "TAX_PROVIDER_PASSWORD": {
-      "description": "Password for tax provider basic auth. Do not use any colons. See https://developer.bigcommerce.com/api-docs/providers/tax#establishing-a-connection"
+      "description": "Welcome1"
     }
   },
   "scripts": {
