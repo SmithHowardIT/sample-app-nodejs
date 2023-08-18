@@ -1,4 +1,4 @@
-import { Box, Flex, H1, H4, Panel } from '@bigcommerce/big-design';
+import { Box, Button, Flex,Form, FormGroup, H1, H4,Input,Panel } from '@bigcommerce/big-design';
 import styled from 'styled-components';
 import ErrorMessage from '../components/error';
 import Loading from '../components/loading';
@@ -26,7 +26,25 @@ const Index = () => {
                     <H1 marginBottom="none">{summary.primary_category_name}</H1>
                 </StyledBox>
             </Flex>
+            <Form>
+                <FormGroup>
+                 <Input
+                description="Please provide a valid email address."
+                label="Email"
+                placeholder="Email address"
+                required
+                type="email"
+             />
+                </FormGroup>
+                <FormGroup>
+                <Input label="Password" placeholder="Password" required type="password" />
+                </FormGroup>
+                <Box marginTop="xxLarge">
+                <Button type="submit">Sign in</Button>
+                </Box>
+                </Form>
         </Panel>
+        
     );
 };
 
